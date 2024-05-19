@@ -2,6 +2,9 @@ body {
   background-color: #4b4d4b;
   margin: 0;
   color: white;
+  background-size: cover;
+  background-attachment: fixed; /* This ensures the background image doesn't move when scrolling */
+  height: 100vh; /* Set the body height to 100% of the viewport height */
   font-family: "Montserrat", sans-serif;
 }
 
